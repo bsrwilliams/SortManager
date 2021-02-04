@@ -1,4 +1,4 @@
-# Sort Manager
+  # Sort Manager
 
 ## Description
 This repository stores a variety of sorting algorithms coded with Java.    
