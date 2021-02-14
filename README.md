@@ -2,10 +2,10 @@
 
 
 ## Quick Links
-1. [Bubble Sort](https://github.com/bsrwilliams/SortManager/tree/master/BubbleSort/src/sparta/bradleywilliams)
-2. Merge Sort (Coming Soon)
-3. Quick sort (Coming Soon)
-4. Binary Tree Sort (Coming Soon)
+1. [Bubble Sort](https://github.com/bsrwilliams/SortManager/blob/master/src/main/java/org/sparta/bradleywilliams/sortingalgorithms/BubbleSort.java)
+2. Merge Sort (https://github.com/bsrwilliams/SortManager/blob/master/src/main/java/org/sparta/bradleywilliams/sortingalgorithms/MergeSort.java)
+3. Quick sort (https://github.com/bsrwilliams/SortManager/blob/master/src/main/java/org/sparta/bradleywilliams/sortingalgorithms/QuickSort.java)
+4. Binary Tree Sort (https://github.com/bsrwilliams/SortManager/blob/master/src/main/java/org/sparta/bradleywilliams/binarytree/BinaryTreeAlgorithm.java)
 
 ## About The Project
 This project contains implementations of the sorting algorithms Bubble sort, Merge sort, Quick sort and Binary Tree. These algorithms were developed using the Java programming language and includes the practice of many features. This project is still in development and I intend to have both iterative and recursive solutions for all algorithms in the future. Another future aim is to add an improved GUI application to provide users with a simple experience whilst showing the algorithms in action.       
