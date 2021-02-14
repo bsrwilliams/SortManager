@@ -1,4 +1,5 @@
-# Sort Manager
+<h1 align="center">Sort Manager</h1>
+
 
 ## Quick Links
 1. [Bubble Sort](https://github.com/bsrwilliams/SortManager/tree/master/BubbleSort/src/sparta/bradleywilliams)
