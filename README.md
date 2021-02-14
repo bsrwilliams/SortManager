@@ -10,7 +10,7 @@
 This project contains implementations of the sorting algorithms Bubble sort, Merge sort, Quick sort and Binary Tree. These algorithms were developed using the Java programming language and includes the practice of many features. This project is still in development and I intend to have both iterative and recursive solutions for all algorithms in the future. Another future aim is to add an improved GUI application to provide users with a simple experience whilst showing the algorithms in action.       
 
 ### Noteable features:
-* JUNIT: Used to test each sorting algorithm against multiple conditions, ensuring correct outputs.
+* JUNIT: Used to test each sorting algorithm against multiple conditions, ensuring correct outputs and also including performance tests.
 * SOLID Principles: This project abides by the SOLID principles to follow clean code practices and allow extensibility 
 * ENUMS: Enums helped to avoid errors and ensure the correct sorting algorithm was initiated
 * Nested Classes: Used for the Node class inside the Binary Tree class, as no other class required the use of the Node class.
