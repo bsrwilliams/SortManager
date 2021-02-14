@@ -39,8 +39,6 @@ Merge sort is an algorithm based on the divide and conquer technique. Sorting a 
 
 Like Merge sort, the Quick sort algorithm is also a divide and conquer technique. Sorting a list by partitioning it into smaller lists. A value in the list is selected as the pivot to divide the list by which values are less than the pivot and which values are greater than the pivot. Quick sort is highly efficient with large data sets, having an average and worst-case time complexity of O(n^2). 
 
-The difference between Quick sort and Merge sort implementations is that in Merge sort most of the work is done by the merge functionality. In Quick sort most of the work happens within the divide functionaiity.  
-
 <h2 align="center">Binary Tree Sort</h2>
 <p align="center">
   <img width="300" height="200" src="https://daankolthof.com/wp-content/uploads/2020/01/BST-insertion-animation.gif">
