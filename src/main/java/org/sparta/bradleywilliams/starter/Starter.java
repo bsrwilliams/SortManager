@@ -19,17 +19,17 @@ public class Starter {
             boolean quit = false;
             while (!quit) {
                 char input = sc.nextLine().charAt(0);
-                if (Character.isDigit(input)) {
-                    int option = Character.digit(input,10);
-                    if (option >= 1 && option <= 4) {
-                        startSortFactory(option);
-                        menuOptions();
-                    } else if (option == 5) {
-                        quit = true;
-                    } else {
-                        Printer.printMessage("Please enter an option.");
-                        menuOptions();
-                    }
+                while (!Character.isDigit(input)) {
+                    menuOptions();
+                    input = sc.nextLine().charAt(0);
+                }
+
+                int option = Character.digit(input,10);
+                if (option >= 1 && option <= 4) {
+                    startSortFactory(option);
+                    menuOptions();
+                } else if (option == 5) {
+                    quit = true;
                 } else {
                     menuOptions();
                 }
@@ -63,18 +63,27 @@ public class Starter {
 
     public static void startBinaryTree() {
         binaryTreeOptions();
-        int arrayMethodSelection = sc.nextInt();
-        sc.nextLine();
+        while (!sc.hasNextInt()) {
+            binaryTreeOptions();
+            sc.nextLine();
+        }
+        int option = sc.nextInt();
+
         // Default array used
-        if (arrayMethodSelection == 1) {
+        if (option == 1) {
+            sc.nextLine();
             sortOrderOptions();
             char ch = sc.nextLine().charAt(0);
             boolean inAscending = Character.toUpperCase(ch) != 'N';
             AlgorithmStarter.binaryTreeDefault(inAscending);
             // User defined array
-        } else if (arrayMethodSelection == 2) {
+        } else if (option == 2) {
             Printer.printMessage("* ================================ *");
             Printer.printMessage("* Number of elements: *");
+            while (!sc.hasNextInt()) {
+                Printer.printMessage("Please enter an integer value: ");
+                sc.next();
+            }
             int size = sc.nextInt();
             int[] userArray;
             if (size > 0) {
@@ -82,6 +91,10 @@ public class Starter {
                 int i = 0;
                 while (i < size) {
                     Printer.printMessage("Enter an integer value to add:");
+                    while (!sc.hasNextInt()) {
+                        Printer.printMessage("Enter an integer value to add:");
+                        sc.next();
+                    }
                     int value = sc.nextInt();
                     sc.nextLine();
                     userArray[i] = value;
