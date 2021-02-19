@@ -8,7 +8,10 @@
 4. [Binary Tree Sort](https://github.com/bsrwilliams/SortManager/blob/master/src/main/java/org/sparta/bradleywilliams/binarytree/BinaryTreeAlgorithm.java)
 
 ## About The Project
-This project contains implementations of the sorting algorithms Bubble sort, Merge sort, Quick sort and Binary Tree. These algorithms were developed using the Java programming language and includes the practice of many features. This project is still in development and I intend to have both iterative and recursive solutions for all algorithms in the future. Another future aim is to add an improved GUI application to provide users with a simple experience whilst showing the algorithms in action.       
+This project contains implementations of the sorting algorithms Bubble sort, Merge sort, Quick sort and Binary Tree. These algorithms were developed using the Java programming language and includes the practice of many features. 
+
+#### Future improvements
+This project is still in development and I intend to have both iterative and recursive solutions for all algorithms in the future. Another future aim is to add an improved GUI application to provide users with a simple experience whilst showing the algorithms in action. Allowing users to use more of the implemented functions in the console such as retrieving the left and right node of an element in a binary tree. Finally, I intend to include Generics inside this application.        
 
 ### Noteable features:
 * JUNIT: Used to test each sorting algorithm against multiple conditions, ensuring correct outputs and also including performance tests.
